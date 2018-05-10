@@ -15,3 +15,11 @@ function checksum(s) {
 	}
 	return (chk & 0xffffffff).toString(16);
 }
+function create() {
+	for (var i=9;i>0;i--) {
+		var bg_posX = (i-1)*252;
+		var html = "<div class='matryoshkas "+(i==1?"":"inside")+"' id='m_"+i+"' style='display:"+(i>2?"none":"")+";'><div class='matryoshka_top' style='background-position:-"+bg_posX+"px 0px;'></div><div class='matryoshka_bottom' style='background-position:-"+bg_posX+"px -191px;'></div></div>";
+		$("#main").append(html);
+	}
+	ready = true;
+}
