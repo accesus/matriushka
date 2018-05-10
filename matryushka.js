@@ -4,7 +4,7 @@ $(document).ready(function() {
 	console.log(cs);
 	if (cs=="37fc4a7d") {
 	} else {
-		$("body").html("").append("<div style='width:200px;text-align:center;background:red;border:2px solid #ab0000;border-radius:10px;color:#ffffff;padding:10px;'><strong style='font-size:31px;'>ALERT!</strong><br>This code is a copy!<br><hr>Visit <a href='https://www.sololearn.com/Profile/8355093'><b>VITRUVIAN</b></a> profile<br>to see the original.</div>");
+		$("body").html("").append("<div style='font-family:arial,helvetica;width:200px;text-align:center;background:red;border:2px solid #ab0000;border-radius:10px;color:#ffffff;padding:10px;'><strong style='font-size:31px;'>ALERT!</strong><br>This code is a copy!<br><hr>Visit <a href='https://www.sololearn.com/Profile/8355093'><b>VITRUVIAN</b></a> profile<br>to see the original.</div>");
 	}
 });
 function checksum(s) {
